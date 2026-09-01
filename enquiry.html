@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Fitness | Membership Enquiry</title>
+    <style>
+        :root { --primary: #0f172a; --accent: #2563eb; --bg: #f8fafc; --card: #ffffff; --text: #334155; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: var(--bg); color: var(--text); line-height: 1.6; }
+        header { background: var(--primary); color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; }
+        header h1 { margin: 0; font-size: 1.5rem; letter-spacing: 1px; }
+        nav ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 15px; }
+        nav a { color: white; text-decoration: none; font-weight: 500; padding: 8px 12px; border-radius: 4px; transition: 0.3s; }
+        nav a:hover { background: var(--accent); }
+        main { max-width: 800px; margin: 2rem auto; padding: 0 20px; }
+        section { background: var(--card); padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        h2 { color: var(--primary); border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; }
+        .form-group { margin-bottom: 1.2rem; }
+        label { display: block; font-weight: 600; margin-bottom: 6px; color: var(--primary); }
+        input[type="text"], input[type="email"], input[type="tel"], select, textarea { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 1rem; box-sizing: border-box; }
+        input[type="submit"] { background: var(--accent); color: white; border: none; padding: 12px 24px; font-size: 1rem; font-weight: 600; border-radius: 6px; cursor: pointer; transition: 0.3s; }
+        input[type="submit"]:hover { background: #1d4ed8; }
+        footer { text-align: center; padding: 1.5rem; background: var(--primary); color: #94a3b8; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Apex Fitness & Performance Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services & Pricing</a></li>
+                <li><a href="enquiry.html">Membership Enquiry</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Membership Application & Consultation Form</h2>
+            <p>Fill out the form below to request a facility tour or complete your preliminary membership application.</p>
+            
+            <form action="#" method="get">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="e.g. Jordan Naidoo">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="082 123 4567">
+                </div>
+
+                <div class="form-group">
+                    <label for="package">Preferred Package:</label>
+                    <select id="package" name="package" required>
+                        <option value="">-- Select a Plan --</option>
+                        <option value="student">Student Basic (R 350/pm)</option>
+                        <option value="full">Full Gym Access (R 550/pm)</option>
+                        <option value="athletic">Athletic Performance Package (R 850/pm)</option>
+                        <option value="vip">VIP Personal Coaching Tiers (R 1,400/pm)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Fitness Goals or Inquiries:</label>
+                    <textarea id="notes" name="notes" rows="4" placeholder="Tell us briefly about your health and fitness objectives..."></textarea>
+                </div>
+
+                <input type="submit" value="Submit Membership Enquiry">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Apex Fitness & Performance Hub. All Rights Reserved. | WEDE5020 Project</p>
+    </footer>
+</body>
+</html>

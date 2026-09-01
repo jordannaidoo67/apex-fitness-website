@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Fitness & Performance Hub | Home</title>
+    <style>
+        :root { 
+            --primary: #0f172a; 
+            --accent: #2563eb; 
+            --bg: #f8fafc; 
+            --card: #ffffff; 
+            --text: #334155; 
+        }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            background: var(--bg); 
+            color: var(--text); 
+            line-height: 1.6; 
+        }
+        header { 
+            background: var(--primary); 
+            color: white; 
+            padding: 1rem 5%; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+        }
+        header h1 { 
+            margin: 0; 
+            font-size: 1.5rem; 
+            letter-spacing: 1px; 
+        }
+        nav ul { 
+            list-style: none; 
+            margin: 0; 
+            padding: 0; 
+            display: flex; 
+            gap: 15px; 
+        }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            font-weight: 500; 
+            padding: 8px 12px; 
+            border-radius: 4px; 
+            transition: 0.3s; 
+        }
+        nav a:hover { 
+            background: var(--accent); 
+        }
+        main { 
+            max-width: 1000px; 
+            margin: 2rem auto; 
+            padding: 0 20px; 
+        }
+        
+        /* Updated Hero Banner with High-Contrast Text */
+        .hero { 
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); 
+            border-left: 6px solid #2563eb;
+            color: #ffffff; 
+            padding: 3.5rem 2rem; 
+            border-radius: 8px; 
+            text-align: center; 
+            margin-bottom: 2rem; 
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+        }
+        .hero h2 { 
+            font-size: 2.5rem; 
+            margin: 0 0 12px 0; 
+            color: #ffffff;
+            border-bottom: none;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        .hero h2 span {
+            color: #60a5fa; /* Electric blue accent color for high visibility */
+        }
+        .hero p {
+            color: #e2e8f0;
+            font-size: 1.15rem;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        section { 
+            background: var(--card); 
+            padding: 1.5rem 2rem; 
+            border-radius: 8px; 
+            margin-bottom: 1.5rem; 
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); 
+        }
+        h2, h3 { 
+            color: var(--primary); 
+            border-bottom: 2px solid #e2e8f0; 
+            padding-bottom: 8px; 
+        }
+        footer { 
+            text-align: center; 
+            padding: 1.5rem; 
+            background: var(--primary); 
+            color: #94a3b8; 
+            margin-top: 3rem; 
+        }
+    </style>
+</head>
+<body>
+    <!-- Global Header -->
+    <header>
+        <h1>Apex Fitness & Performance Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services & Pricing</a></li>
+                <li><a href="enquiry.html">Membership Enquiry</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with High-Contrast Styling -->
+        <div class="hero">
+            <h2>Welcome to <span>Apex Fitness</span></h2>
+            <p>Empowering Westville residents and athletes through structured training, expert coaching, and personal wellness.</p>
+        </div>
+
+        <section>
+            <h2>Featured Training Programs</h2>
+            <article>
+                <h3>Strength & Conditioning</h3>
+                <p>Designed for intermediate and advanced athletes aiming to improve raw force output, power development, and injury resilience.</p>
+            </article>
+            <article>
+                <h3>Functional Mobility & Health</h3>
+                <p>Focuses on core stability, joint health, and daily movement efficiency for working professionals and active adults.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Facility Highlights</h2>
+            <ul>
+                <li>State-of-the-art free weights and Olympic lifting platforms.</li>
+                <li>Dedicated cardio suite with real-time feedback systems.</li>
+                <li>Professional sports conditioning coaches certified by national bodies.</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer>
+        <p>&copy; 2026 Apex Fitness & Performance Hub. All Rights Reserved. | WEDE5020 Project</p>
+    </footer>
+</body>
+</html>
