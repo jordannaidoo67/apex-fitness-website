@@ -25,3 +25,19 @@ Apex Fitness & Performance Hub is a Durban-based fitness facility offering stren
 * Content organized using structured headings, lists, tables, and media elements.
 
 ## Website Sitemap
+## Part 2 Development & Changelog
+
+### Part 1 Feedback Revisions
+- Addressed marker feedback from Part 1.
+- Updated HTML layout structure and verified all page navigation links.
+
+### Part 2 Updates
+- Created external stylesheet `style.css` and linked it across all website pages.
+- Implemented global CSS reset, custom color variables, and base typography.
+- Designed page layout using CSS Grid and Flexbox for desktop view.
+- Added interactive states (`:hover`, `:focus`, `:active`) to navigation and buttons.
+- Integrated media queries to ensure full responsiveness across tablet (768px) and mobile (480px) viewports.
+
+## References
+- MDN Web Docs. (2026). *CSS Layouts & Flexbox*. Available at: https://developer.mozilla.org
+- W3Schools. (2026). *Responsive Web Design - Media Queries*. Available at: https://www.w3schools.com
